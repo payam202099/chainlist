@@ -213,6 +213,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.publicnode,
       },
       {
+       url: "http://127.0.0.1:8545",
+       tracking: "none",
+       trackingDetails: privacyStatement.publicnode,
+      },
+      {
         url: "https://1rpc.io/eth",
         tracking: "none",
         trackingDetails: privacyStatement.onerpc,
